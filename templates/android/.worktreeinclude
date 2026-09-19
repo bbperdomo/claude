@@ -1,0 +1,5 @@
+# Gitignored files that a new git worktree needs in order to build.
+# Claude Code copies these into each worktree it creates (for parallel sessions).
+local.properties
+**/google-services.json
+keystore.properties

@@ -1,0 +1,12 @@
+{
+  "name": "android-dev",
+  "displayName": "Android Dev",
+  "version": "0.1.0",
+  "description": "Android build/test/deploy loop for Claude: targeted Gradle tasks, Android CLI for device verification, and a gradle-runner subagent that keeps build logs out of context.",
+  "author": {
+    "name": "Bryan",
+    "url": "https://github.com/bbperdomo"
+  },
+  "repository": "https://github.com/bbperdomo/claude",
+  "keywords": ["android", "gradle", "kotlin"]
+}

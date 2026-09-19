@@ -1,0 +1,13 @@
+{
+  "name": "chrisbanes-compose",
+  "displayName": "Chris Banes: Compose & Kotlin",
+  "version": "2026.9.2",
+  "description": "Curated, vendored subset of Chris Banes' skills (Compose and Kotlin only). See VENDORED.md for the upstream commit.",
+  "author": {
+    "name": "Chris Banes",
+    "url": "https://github.com/chrisbanes"
+  },
+  "homepage": "https://github.com/chrisbanes/skills",
+  "license": "Apache-2.0",
+  "keywords": ["android", "compose", "kotlin"]
+}

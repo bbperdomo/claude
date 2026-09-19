@@ -1,0 +1,29 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace-schema.json",
+  "name": "bbperdomo",
+  "description": "Bryan's personal Claude Code plugins, plus vetted third-party picks pinned to reviewed commits.",
+  "owner": {
+    "name": "Bryan",
+    "url": "https://github.com/bbperdomo"
+  },
+  "plugins": [
+    {
+      "name": "android-dev",
+      "source": "./plugins/android-dev",
+      "description": "Android build/test/deploy loop for Claude: targeted Gradle tasks, Android CLI for device verification, and a gradle-runner subagent that keeps build logs out of context.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": ["android", "gradle", "kotlin"]
+    },
+    {
+      "name": "chrisbanes-compose",
+      "description": "Curated subset of Chris Banes' skills: Compose and Kotlin only, vendored from a reviewed commit (see VENDORED.md). His general workflow skills are left out because they overlap with superpowers.",
+      "source": "./plugins/chrisbanes-compose",
+      "version": "2026.9.2",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/chrisbanes/skills",
+      "category": "development",
+      "keywords": ["android", "compose", "kotlin"]
+    }
+  ]
+}
